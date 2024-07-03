@@ -1,0 +1,31 @@
+@import './style.scss';
+
+@font-face {
+    font-family: "Arial-Medium";
+    src: url("./fonts/arial-medium.ttf");
+}
+
+@font-face {
+    font-family: "Arial-Regular";
+    src: url("./fonts/arial-regular.ttf");
+}
+
+
+@font-face {
+    font-family: "Arial-Extra-Bold";
+    src: url("./fonts/arial-exbold.ttf");
+}
+
+@font-face {
+    font-family: "Arial-Light";
+    src: url("./fonts/arial-light.ttf");
+}
+
+@font-face {
+    font-family: "DancingScript";
+    src: url("./fonts/DancingScript-Regular.otf");
+}
+
+body {
+    margin: 1px
+}
