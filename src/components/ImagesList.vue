@@ -19,11 +19,11 @@
     <!-- content -->
     <div class="content">
       <div class="title-content">
-        <h2> Photo Cards:</h2>
+        <h1> Photo Cards:</h1>
       </div>
       <div class="list-card">
         <div class="card" v-for="item of contents" :key="item.stt">
-          <div class="card-image-container" >
+          <div class="card-image-container">
             <img :src="item.url" :alt="item.url" class="img-content" :style="item.className">
           </div>
           <div class="card-content">

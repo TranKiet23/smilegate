@@ -102,13 +102,12 @@ $blue-color: rgb(74, 153, 210);
   }
 
   .content {
-    border-radius: 5px;
-    padding: 10px;
+    padding: 6px;
 
     .title-content {
       width: 100%;
       text-align: left;
-      padding: 5px 15px;
+      margin: -20px 0px -15px 12px;
     }
 
     .list-card {
@@ -117,7 +116,7 @@ $blue-color: rgb(74, 153, 210);
       grid-template-columns: auto auto auto auto auto auto;
       gap: 15px; 
       padding: 15px;
-      transform: translate(-10px);
+      transform: translate(-12px,-10px);
       @media (max-width: 1550px) {
         grid-template-columns: auto auto auto auto;
       }
