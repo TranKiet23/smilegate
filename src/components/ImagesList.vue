@@ -21,7 +21,7 @@
       <div class="title-content">
         <h2> Photo Cards:</h2>
       </div>
-      <div class="list-item">
+      <div class="list-card">
         <div class="card" v-for="item of contents" :key="item.stt">
           <div class="card-image-container" >
             <img :src="item.url" :alt="item.url" class="img-content" :style="item.className">
