@@ -25,7 +25,7 @@ $blue-color: rgb(74, 153, 210);
         position: relative;
         padding-left: 5%;
         justify-items: center;
-        @media (max-width: 1440px) {
+        @media (max-width: 1550px) {
           padding-left: 1%;
         }
 
@@ -53,7 +53,7 @@ $blue-color: rgb(74, 153, 210);
         position: relative;
         justify-content: end;
         @media (max-width: 1500px) {
-          padding-right: 6%;
+          padding-right: 1%;
         }
 
         .group-button {
@@ -117,7 +117,7 @@ $blue-color: rgb(74, 153, 210);
       grid-template-columns: auto auto auto auto auto auto;
       gap: 20px;
       transform: translate(15px , 5px);
-      @media (max-width: 1440px) {
+      @media (max-width: 1550px) {
         grid-template-columns: auto auto auto auto;
       }
       @media (max-width: 768px) {
@@ -127,7 +127,7 @@ $blue-color: rgb(74, 153, 210);
       .item {
         background-color: #f5f5f5;
         max-width: 245px;
-        @media (max-width: 1440px) {
+        @media (max-width: 1550px) {
           max-width: 200px;
         }
         @media (max-width: 1024px) {
@@ -137,7 +137,7 @@ $blue-color: rgb(74, 153, 210);
         .img-content {
           width: 245px;
           height: 180px;
-          @media (max-width: 1440px) {
+          @media (max-width: 1550px) {
             width: 200px;
             height: 180px;
           }
@@ -160,7 +160,7 @@ $blue-color: rgb(74, 153, 210);
             white-space: nowrap;
             font-family: 'Arial-Extra-Bold';
             padding-left: 2px;
-            @media (max-width: 1440px) {
+            @media (max-width: 1550px) {
               width: 200px;
               font-size: 10px;
             }
