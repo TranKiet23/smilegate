@@ -22,20 +22,20 @@
         <h2> Photo Cards:</h2>
       </div>
       <div class="list-item">
-        <div class="item" v-for="item of contents" :key="item.stt">
-          <img :src="item.url" :alt="item.url" class="img-content" :style="item.className">
-          <div class="description">
+        <div class="card" v-for="item of contents" :key="item.stt">
+          <div class="card-image-container" >
+            <img :src="item.url" :alt="item.url" class="img-content" :style="item.className">
+          </div>
+          <div class="card-content">
             <p>{{ item.title }}</p>
           </div>
         </div>
-
       </div>
 
     </div>
   </div>
 </template>
 <script>
-import Form from '../services/form'
 import content from "../services/content"
 import { ref } from 'vue'
 export default {
@@ -48,7 +48,6 @@ export default {
     }
   },
   mounted() {
-    console.log(this.contents);
   }
 }
 </script>

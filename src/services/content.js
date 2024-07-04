@@ -10,7 +10,7 @@ export default class ContentList {
             className: "object-fit: cover;"
         },
         {   stt: 1,
-            url: portrait,
+            url: landscape,
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover"
         },
@@ -20,22 +20,22 @@ export default class ContentList {
             className: "object-fit: cover"
         },
         {   stt: 3,
-            url: portrait,
+            url: landscape,
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover"
         },
         {   stt: 4,
-            url: portrait,
+            url: landscape,
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover"
         },
         {   stt: 5,
-            url: landscape,
+            url: portrait,
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover"
         },
         {   stt: 6,
-            url: landscape,
+            url: portrait,
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover"
         },
@@ -50,6 +50,46 @@ export default class ContentList {
             className: "object-fit: cover"
         },
         {   stt: 9,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 10,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 11,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 12,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 13,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 14,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 15,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 16,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 17,
             url: landscape,
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover;"
