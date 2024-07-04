@@ -41,7 +41,7 @@ $blue-color: rgb(74, 153, 210);
           color: $white-color;
           font-size: 20px;
           font-family: 'Arial-Light';
-          @media (max-width: 1440px) {
+          @media (max-width: 1500px) {
             font-size: 12px;
           }
         }
@@ -52,15 +52,15 @@ $blue-color: rgb(74, 153, 210);
         display: flex;
         position: relative;
         justify-content: end;
-        @media (max-width: 1440px) {
-          padding-right: 1%;
+        @media (max-width: 1500px) {
+          padding-right: 6%;
         }
 
         .group-button {
           width: 100%;
           display: flex;
           justify-content: center;
-          @media (max-width: 1440px) {
+          @media (max-width: 1500px) {
             justify-content: end;
           }
 
@@ -70,7 +70,7 @@ $blue-color: rgb(74, 153, 210);
             padding: 6px 10px;
             margin: 5px;
             text-align: center;
-            @media (max-width: 1440px) {
+            @media (max-width: 1500px) {
               padding: 4px 5px;
               margin: 3px;
             }
@@ -88,7 +88,7 @@ $blue-color: rgb(74, 153, 210);
             color: $white-color;
             font-size: 20px;
             font-family: 'Arial-Light';
-            @media (max-width: 1440px) {
+            @media (max-width: 1500px) {
               font-size: 12px;
             }
 
