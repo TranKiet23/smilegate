@@ -12,9 +12,9 @@ $blue-color: rgb(74, 153, 210);
   .header {
     background-color: $base-color  !important;
     padding: 10px;
+    width: 100%;
 
     .breadcrumb {
-      width: 100%;
       display: flex;
       justify-content: space-around;
       align-items: center;
@@ -25,6 +25,9 @@ $blue-color: rgb(74, 153, 210);
         position: relative;
         padding-left: 5%;
         justify-items: center;
+        @media (max-width: 1440px) {
+          padding-left: 1%;
+        }
 
         .img-logo {
           width: 70px;
@@ -38,6 +41,9 @@ $blue-color: rgb(74, 153, 210);
           color: $white-color;
           font-size: 20px;
           font-family: 'Arial-Light';
+          @media (max-width: 1440px) {
+            font-size: 12px;
+          }
         }
       }
 
@@ -46,12 +52,17 @@ $blue-color: rgb(74, 153, 210);
         display: flex;
         position: relative;
         justify-content: end;
+        @media (max-width: 1440px) {
+          padding-right: 1%;
+        }
 
         .group-button {
           width: 100%;
           display: flex;
-          justify-content: end;
           justify-content: center;
+          @media (max-width: 1440px) {
+            justify-content: end;
+          }
 
           .custom-button {
             border: 1px solid $white-color;
@@ -59,6 +70,10 @@ $blue-color: rgb(74, 153, 210);
             padding: 6px 10px;
             margin: 5px;
             text-align: center;
+            @media (max-width: 1440px) {
+              padding: 4px 5px;
+              margin: 3px;
+            }
 
             &:hover {
               opacity: 0.8;
@@ -73,6 +88,9 @@ $blue-color: rgb(74, 153, 210);
             color: $white-color;
             font-size: 20px;
             font-family: 'Arial-Light';
+            @media (max-width: 1440px) {
+              font-size: 12px;
+            }
 
             &:hover {
               color: $black-color;
@@ -85,6 +103,7 @@ $blue-color: rgb(74, 153, 210);
 
   .content {
     border-radius: 5px;
+    padding: 10px;
 
     .title-content {
       width: 100%;
@@ -96,15 +115,36 @@ $blue-color: rgb(74, 153, 210);
       display: grid;
       width: 100%;
       grid-template-columns: auto auto auto auto auto auto;
-      gap: 15px;
+      gap: 20px;
+      transform: translate(15px , 5px);
+      @media (max-width: 1440px) {
+        grid-template-columns: auto auto auto auto;
+      }
+      @media (max-width: 768px) {
+        grid-template-columns: auto auto auto;
+      }
 
       .item {
         background-color: #f5f5f5;
         max-width: 245px;
+        @media (max-width: 1440px) {
+          max-width: 200px;
+        }
+        @media (max-width: 1024px) {
+          max-width: 150px;
+        }
 
         .img-content {
           width: 245px;
           height: 180px;
+          @media (max-width: 1440px) {
+            width: 200px;
+            height: 180px;
+          }
+          @media (max-width: 1024px) {
+            width: 150px;
+            height: 140px;
+          }
         }
 
         .description {
@@ -120,6 +160,15 @@ $blue-color: rgb(74, 153, 210);
             white-space: nowrap;
             font-family: 'Arial-Extra-Bold';
             padding-left: 2px;
+            @media (max-width: 1440px) {
+              width: 200px;
+              font-size: 10px;
+            }
+            @media (max-width: 1024px) {
+              width: 150px;
+              font-size: 8px;
+
+            }
           }
 
         }
