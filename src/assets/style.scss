@@ -23,8 +23,11 @@ $blue-color: rgb(74, 153, 210);
         width: 100%;
         display: flex;
         position: relative;
-        padding-left: 5%;
+        padding-left: 11%;
         justify-items: center;
+        @media (min-width: 1550px) {
+          max-width: 1440px;
+        }
         @media (max-width: 1550px) {
           padding-left: 1%;
         }
@@ -50,20 +53,23 @@ $blue-color: rgb(74, 153, 210);
       .right-group {
         width: 100%;
         display: flex;
-        position: relative;
-        justify-content: end;
-        @media (max-width: 1500px) {
-          padding-right: 1%;
-        }
+ 
 
         .group-button {
           width: 100%;
           display: flex;
           justify-content: center;
-          @media (max-width: 1500px) {
-            justify-content: end;
+          margin-left: -1.2%;
+          @media (max-width: 1730px) {
+            margin-right: 9%;
           }
-
+          @media (max-width: 1550px) {
+            justify-content: end;
+            margin-right: 2%;
+          }
+          @media (max-width: 768px) {
+            margin-right: 15px;
+          }
           .custom-button {
             border: 1px solid $white-color;
             border-radius: 5px;
@@ -103,11 +109,18 @@ $blue-color: rgb(74, 153, 210);
 
   .content {
     padding: 6px;
+    max-width: 100%;
+     @media (min-width: 1550px) {
+          max-width: 1530px;
+          position: absolute;
+          right: 11%;
+          left: 11%
+      }
 
     .title-content {
       width: 100%;
       text-align: left;
-      margin: -20px 0px -15px 12px;
+      margin: -20px 0px -15px 0px;
     }
 
     .list-card {
@@ -134,7 +147,6 @@ $blue-color: rgb(74, 153, 210);
           position: relative;
           width: 100%;
           padding-bottom: 66.66%; // This ensures a 3:2 aspect ratio
-      
           img {
             position: absolute;
             top: 0;
@@ -159,6 +171,10 @@ $blue-color: rgb(74, 153, 210);
             white-space: nowrap;
             font-family: 'Arial-Extra-Bold';
             padding-left: 2px; 
+            @media (min-width: 1556px) {
+              font-size: 9.6px;
+              padding-left: 0px; 
+            }
             @media (max-width: 1550px) {
               font-size: 11x;
               padding-left: 1px;

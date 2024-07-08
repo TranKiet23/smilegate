@@ -94,6 +94,56 @@ export default class ContentList {
             title: "Product name is quite long in some caces.",
             className: "object-fit: cover;"
         },
+        {   stt: 18,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 19,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 20,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 21,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 22,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover"
+        },
+        {   stt: 23,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 24,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 25,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 26,
+            url: landscape,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
+        {   stt: 27,
+            url: portrait,
+            title: "Product name is quite long in some caces.",
+            className: "object-fit: cover;"
+        },
     ]
 
 }
